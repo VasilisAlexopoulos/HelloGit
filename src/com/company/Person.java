@@ -3,9 +3,11 @@ package com.company;
 public class Person {
     private String firstName;
 
-    public String setFirstName (){
+    public void setFirstName (String firstName){
+        this.firstName = firstName;
+    }
+    public String getFirstName(){
         return firstName;
     }
-
 
 }
